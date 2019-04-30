@@ -11,3 +11,13 @@
 .mellan{
 	margin-left: 30px;
 }
+.footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   background:lightgrey;
+
+}
+.footertext{
+	margin: 0;
+}
