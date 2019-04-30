@@ -1,0 +1,13 @@
+.stortext{
+	 font-size: 80px;
+}
+.navbartext{
+	font-size: 30px;
+	color: black;
+}
+.navbartext:hover{
+	color:red;
+}
+.mellan{
+	margin-left: 30px;
+}
