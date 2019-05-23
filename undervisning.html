@@ -10,10 +10,11 @@
   <!-- Egen CSS-->
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="js\quiz.js"></script>
   <title>Tjejhack!</title>
 
 </head>
-<body>
+<body class="stylebody">
   <header>
     <!-- Navbar -->
     <nav class=" shadow navbar navbar-collapse navbar-expand-lg navbar-light bg-light">
@@ -37,11 +38,26 @@
           </li>
         </ul>
       </div>
+<a class="btn btn-primary btn-lg knapp" href="#" role="button">Klicka här för att ladda ner material</a>
        <a href="https://www.ronneby.se/knuthahnsskolan">
       <img class="d-none d-lg-block" src="img/loggaknuthan.png">
     </a>
     </nav>
   </header>
+
+    <h1 class="title">Quiz!</h1>
+    <div id="quiz" class="quiz">
+        <h3 id="h3_fråga">asd</h3>
+        <form>
+          <label class="lable">Svarsruta:</label>
+          <input type="text" id="svaret" size="1">
+        </form>
+        <button class="btn1 btn btn-primary" id="btn_svara">Svara</button>
+        <h5>Antal rätt: <span id="rätt">0</span></h5>
+    </div>
+    <div class="vinst" id="vinstdiv">
+      <img src="img\victory.png">
+    </div>
   
 <!--- footer-->
 <footer class="footer">
