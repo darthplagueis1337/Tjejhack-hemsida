@@ -1,12 +1,12 @@
 .stortext{
-	 font-size: 80px;
+	 font-size: 70px;
 }
 .navbartext{
 	font-size: 30px;
 	color: black;
 }
 .navbartext:hover{
-	color:red;
+	color:#E80C94;
 }
 .mellan{
 	margin-left: 30px;
@@ -28,7 +28,43 @@
 	color:purple;
 }
 .bildspel{
-	width: 40%;
 	margin-left: 10px;
 	margin-top: 10px;
+}
+.maindiv{
+	margin-top: 20px;
+}
+.knapp{
+	background-color:#E80C94;
+	margin-right: 10px;
+}
+.knapptext{
+	color: white;
+}
+.bilderkontakt{
+	min-width: 120px;
+}
+.rowkontakt{
+margin:10px;
+}
+.iframeresp{
+	height: 500px;
+	width: 100%;
+	
+}
+.iframeresp2{
+	height: 500px;
+	width:400px;
+}
+.minnav{
+	min-width:450px;
+}
+.bildspel2{
+	min-width:400px;
+}
+.artiklar{
+	margin: 10px;
+}
+html{
+	overflow-x:hidden;
 }

@@ -16,7 +16,7 @@
 <body>
   <header>
     <!-- Navbar -->
-    <nav class="shadow navbar navbar-collapse navbar-expand-lg navbar-light bg-light">
+    <nav class="shadow navbar navbar-collapse navbar-expand-lg navbar-light bg-light minnav">
       <a class="navbar-brand" href="index.html">
         <img src="img/tjejhacklogga.png" height="100" class="d-inline-block align-top" alt="">
         <font class="stortext">Tjejhack</font>
@@ -37,7 +37,7 @@
           </li>
         </ul>
       </div>
-      <a class="btn btn-primary btn-lg knapp" href="#" role="button">Klicka här för att ladda ner material</a>
+      <a class="btn btn-lg knapp" href="#" role="button"><font class="knapptext">Ladda ner material</font></a>
       <a href="https://www.ronneby.se/knuthahnsskolan">
       <img class="d-none d-lg-block" src="img/loggaknuthan.png">
     </a>
@@ -47,14 +47,16 @@
   <div class="container maindiv">
     <!-- bildspel-->
     <div class="row">
-     <div class="col-sm-7">
+     <div class="col-sm-5">
+     <!--- När nästa tjejhack är-->
+     <h3 class="bildspel">Nästa Tjejhack är 2019-05-29</h3>
       <div id="carouselExampleFade" class="carousel slide carousel-fade bildspel" data-ride="carousel">
        <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
         <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
       </ol>
-      <div class="carousel-inner">
+      <div class="carousel-inner bildspel2">
         <div class="carousel-item active">
           <img src="img/1.jpg" class="d-block w-100" alt="Bild från tjejhack">
           <div class="carousel-caption d-none d-md-block">
@@ -94,14 +96,11 @@
     </div>
   </div> <!--slut på bildspels div-->
   <!-- när nästa hack är-->
-  <div class="col-sm-4"><p>Nästa tjej hack är den 20/12-2019</p><br>
-    <!-- ladda ner häfte-->
-    <a class="btn btn-primary btn-lg" href="#" role="button">Klicka här för att ladda ner material</a>
-  </div>
+ 
 
   <!-- facebook-->
-  <div class="col-sm-1">
-    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fteknist&tabs=timeline&width=400&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="400" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+  <div class="col-sm-1 bildspel">
+    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fteknist&tabs=timeline&width=400&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" class="iframeresp2" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
   </div>
 </div><!-- slut på row 1-->
 
