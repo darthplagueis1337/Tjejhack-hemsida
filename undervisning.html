@@ -7,20 +7,24 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- googlefonts-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <!-- Egen CSS-->
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script type="text/javascript" src="js\quiz.js"></script>
+  
   <title>Tjejhack!</title>
 
 </head>
-<body class="stylebody">
+<body>
   <header>
     <!-- Navbar -->
+
     <nav class=" shadow navbar navbar-collapse navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html">
+        <!--logga-->
         <img src="img/tjejhacklogga.png" height="100" class="d-inline-block align-top" alt="">
-        <font class="stortext">Tjejhack</font>
+        <span class="stortext">Tjejhack</span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -28,64 +32,104 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item mellan">
-            <a class="nav-link" href="omoss.html"><font class="navbartext">Om oss</font><span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="omoss.html"><span class="navbartext">Om oss</span><span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item mellan">
-            <a class="nav-link" href="undervisning.html"><font class="navbartext">Undervisning</font></a>
+            <a class="nav-link" href="undervisning.html"><span class="navbartext">Undervisning</span></a>
           </li>
           <li class="nav-item mellan">
-            <a class="nav-link" href="press.html"><font class="navbartext">Press</font></a>
+            <a class="nav-link" href="press.html"><span class="navbartext">Press</span></a>
           </li>
         </ul>
       </div>
-<a class="btn btn-primary btn-lg knapp" href="#" role="button">Klicka här för att ladda ner material</a>
-       <a href="https://www.ronneby.se/knuthahnsskolan">
-      <img class="d-none d-lg-block" src="img/loggaknuthan.png">
-    </a>
+      <!--nerladdning av material-->
+      <a class="btn btn-lg knapp färg" href="#" role="button"><span class="knapptext">Ladda ner material</span></a>
+      <a href="https://www.ronneby.se/knuthahnsskolan">
+        <!--logga-->
+        <img class="d-none d-lg-block" src="img/loggaknuthan.png" alt="knuthahnsskolans logga">
+      </a>
     </nav>
   </header>
 
-    <h1 class="title">Quiz!</h1>
-    <div id="quiz" class="quiz">
-        <h3 id="h3_fråga">asd</h3>
-        <form>
-          <label class="lable">Svarsruta:</label>
-          <input type="text" id="svaret" size="1">
-        </form>
-        <button class="btn1 btn btn-primary" id="btn_svara">Svara</button>
-        <h5>Antal rätt: <span id="rätt">0</span></h5>
-    </div>
-    <div class="vinst" id="vinstdiv">
-      <img src="img\victory.png">
-    </div>
-  
-<!--- footer-->
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">
-       <h2>Kontakt</h2>
-       <p class="footertext">Gymnasieskolan Knut Hahn</p>
-       <p class="footertext">Blasius Königsgatan 27</p>
-       <p class="footertext">372 35 Ronneby</p>
+  <main>
+    <!-- statistik-->
+    <div class="container maindiv">
+      <section>
+        <div class="row">
+          <div class="col stats">
+            <h3>Statistik</h3>
+            <p>2018: 120 deltagare, 4 st mentorer, 2 st lärare<p><br>
+              <p>2019: Första tjejhacket kommer att genomföras 29/5 med tjejerna i årskurs 7 på Snäckebackskolan. Förutom tjejhack kommer även en workshop om programmering med python att genomföras på Listerbyskolan (årskurs 4-6).<p>
+              </div>
+            </div>
+            <!-- bilder på statistik-->
+            <div class="row">
+              <div class="col">
+                <img src="img/stat1.png" alt="Bild på Statistik om tjejhack"></div>
+                <div class="col">
+                  <img src="img/stat2.png" alt="Bild på Statistik om tjejhack"></div>
+                </div>
+              </section>
+              <section>
+                <!--kommentarer från deltagare-->
+                <div class="row">
+                  <div class="col kommentarer">
 
-     </div>
-     <div class="col-sm d-none d-md-block">
-    </div>
-    <div class="col-sm d-none d-lg-block">
-      <h2>Följ oss<h2>
-        <a href="#" class="fa fa-facebook"></a> facebook<br>
-        <a href="#" class="fa fa-instagram"></a> instagram
-      </div>
-    </div>
-  </div>
-</footer>
+                    <h3>Kommentarer från deltagare</h3>
+                    <img src="img/stat3.png" alt="Bild på Statistik om tjejhack">
+                  </div>
+                  <div class="col">
+                    <a class="link färg" href = "https://docs.google.com/document/d/1wHjENfKS35pxIJBCpY6p1pe8bxh9lJHSridFDkwG3x8/edit#heading=h.7526bdlj3v6x"> Häfte: Python med Turtle</a><br>
+                    <a class="link färg" href = "https://docs.google.com/document/d/17EvSfd9vvPF0W67su8GFejgzte9BxGaTsD7xvzYyxZ0/edit"> Häfte: Grunderna i Pyhton</a>
+                    <!-- quiz-->
+                    <div class="col-3 quiz" id="quiz">
+                      <h1>Quiz!</h1>
+                      <h3 id="h3_fråga">...</h3>
+                      <form>
+                        <label class="lable">Svarsruta:</label>
+                        <input type="text" id="svaret" size="1">
+                      </form>
+                      <!-- börjar rättningen-->
+                      <button class="btn1 btn knapp" id="btn_svara" onclick="Quiz()">Svara</button>
+                      <h5>Antal rätt: <span id="rätt">0</span></h5>
+                    </div>
 
-<!-- Optional JavaScript -->
+                  </div>
 
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-</html>
+                </div>
+              </section>
+
+            </div>
+          </main>
+
+          <!--- footer-->
+          <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                 <h2>Kontakt</h2>
+                 <p class="footertext">Gymnasieskolan Knut Hahn</p>
+                 <p class="footertext">Blasius Königsgatan 27</p>
+                 <p class="footertext">372 35 Ronneby</p>
+
+               </div>
+               <div class="col-sm d-none d-md-block">
+               </div>
+               <div class="col-sm d-none d-lg-block">
+                <h2>Följ oss</h2>
+                  <a href="https://www.facebook.com/teknist/" class="fa fa-facebook"></a> facebook<br>
+                  <a href="https://www.instagram.com/teknikprogrammet/" class="fa fa-instagram"></a> instagram
+                </div>
+              </div>
+            </div>
+          </footer>
+
+          <!-- Optional JavaScript -->
+
+          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+          <script src="js/quiz.js"></script>
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        </body>
+        </html>
